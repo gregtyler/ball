@@ -1,0 +1,213 @@
+@grey: #45413F;
+@ltgrey: #877F7C;
+@blue: #3C3E6B;
+@white: #F4EBE5;
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: url('../img/bg-tile.png') @white;
+    color: @grey;
+    font-family: Junge, serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    text-shadow: 1px 1px @grey;
+    @media only screen and (min-width: 900px) {
+        font-size: 18px;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    margin: 5px;
+    background-color: @white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: @ltgrey;
+}
+
+::selection {
+    background-color: @ltgrey;
+}
+
+a { color: @blue; text-shadow: none; }  
+a img { border: 0; }
+img { max-width: 100%; }
+
+del { font-size: 0.85em; font-weight: normal; }
+
+/** COMMON CLASSES **/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+i[class^=icon] {
+    float: left;
+    display: block;
+    width: 81px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url('../img/icons.png');
+}
+.icon-calendar { background-position: -81px 0; }
+.icon-cost { background-position: -162px 0; }
+
+.button {
+    display: inline-block;
+    padding: 0.35em;
+    border: 1px solid @ltgrey;
+    border-radius: 10px;
+    background-color: @white;
+    text-decoration: none;
+}
+
+/** STRUCTURE **/
+.logo {
+    text-align: center;
+}
+
+.logo-link {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.nav {
+    padding: 0.5em;
+    color: @grey;
+    text-align: center;
+    text-shadow: none;
+    a {
+        color: inherit;
+    }
+}
+
+.desc, .how {
+    background: @ltgrey url('../img/bg-tile-2.png') repeat;
+    color: @white;
+}
+
+.desc {
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    > h2 {
+        text-align: center;
+        line-height: 1.5em;
+    }
+    a {
+        color: inherit;
+    }
+}
+
+.list {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    > li {
+        margin: 0.5em 0;
+        &::before, &::after {
+            content: '~';
+            margin: 0 1em;
+        }
+    }
+    @media only screen and (min-width: 900px) {
+        column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+    }
+}
+
+.faqs, .contact {
+    background: url('../img/bg-tile-3.png') @grey;
+    color: @white;
+}
+
+.half {
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom: 1px solid @ltgrey;
+    h2 {
+        margin: 0 0 0.5em 0;
+    }
+    @media only screen and (min-width: 900px) {
+        float: left;
+        display: table-cell;
+        width: 50%;
+        border-bottom: none;
+    }
+}
+
+.third {
+    padding: 20px 10px;
+    text-align: center;
+    line-height: 2em;
+    border-bottom: 1px solid @ltgrey;
+    h2 {
+        margin: 0 0 0.5em 0;
+        padding: 1.5em 40px 0 0;
+        border-radius: 40px;
+        background-color: @ltgrey;
+        font-size: 1.5em;
+        font-variant: small-caps;
+        line-height: 1em;
+        @media only screen and (min-width: 900px) {
+            padding-top: 1em;
+        }
+    }
+    hr {
+        margin: 1em 100px;
+    }
+    > div {
+        font-size: 1.3em;
+    }
+    @media only screen and (min-width: 900px) {
+        float: left;
+        display: table-cell;
+        width: 33.3333333333%;
+        border-bottom: none;
+    }
+}
+
+.map {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    .map-inner {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+        padding: 0.4em;
+        background-color: hsla(0,0%,0%,0.7);
+        text-align: center;
+        color: @white;
+    }
+}
+
+.quart {
+    padding: 0.5em;
+    text-align: center;
+    a {
+        color: @white;
+    }
+    @media only screen and (min-width: 700px) {
+        float: left;
+        width: 25%;
+    }
+}
+
+.menu {
+    text-align: center;
+}

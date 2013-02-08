@@ -47,7 +47,7 @@
 
 <section class=desc>
     <h2>On 6<sup>th</sup> March, join us at The Jam House for the 2013 Maths Ball!</h2>
-    <p>With a full three course dinner, wine provided and a ceilidh with the Maths Ceilidh band, this is going to be an incredible event that you wno't want to miss out on!</p>
+    <p>With a full three course dinner, wine provided and a ceilidh with the Maths Ceilidh band, this is going to be an incredible event that you won't want to miss out on!</p>
     <ul class=list>
         <li>Prosecco reception
         <li>Full three course dinner
@@ -56,6 +56,7 @@
         <li>A ceilidh with the Maths Ceilidh band
         <li>Discount entry to 'MANSION @ OPAL' afterparty
     </ul>
+    <p style="text-align:center;max-width:960px;margin:1em auto;">There will also be a raffle to raise money for Children's Holiday Venture, an amazing Edinburgh-based charity. You can find out more about CHV and the great work they do <a href="http://www.chv.org.uk/" target="_blank">here</a>!</p>
     <p style="text-align:center;">To follow any updates, make sure to attend the event on <a href="http://facebook.com/EdinMathSoc/events" target="_blank">Facebook</a>.</p>
 </section>
 
@@ -108,12 +109,12 @@
         <h2>In Person</h2>
         <p>We will have travelling stalls selling tickets around George Square and Kings Buildings Campuses.</p>
         <div><strong>
-        <del>11am -12pm, Wednesday 30th January, Maths Base Appleton Tower</del><br>
-        <del>12.30-13.30, Friday 1st February, JCMB Maths Hub</del><br>
-        13.00-14.00, Tuesday 5th February, JCMB Maths Hub<br>
-        11am -12pm, Wednesday 6th February, Maths Base Appleton Tower<br>
-        13.00-14.00, Thursday 7th February, JCMB Maths Hub<br>
-        9am-11am, Friday 8th February, JCMB Maths Hub
+        <del>1300-1400, Tuesday 5th February, JCMB Maths Hub</del><br>
+        <del>11am-12pm, Wednesday 6th February, Maths Base Appleton Tower</del><br>
+        <del>1300-1400, Thursday 7th February, JCMB Maths Hub</del><br>
+        9am-11am, Friday 8th February, JCMB Maths Hub<br>
+        1300-1400, Monday 11th February, JCMB Maths Hub<br>
+        (Last chance!)
         </strong></div>
         <p>You'll also be able to buy tickets at upcoming MathSoc events. Check out our Facebook page for more information.</p>
         <p><a class=button href="http://facebook.com/EdinMathSoc/events" target="_blank">Find us on Facebook</a></p>

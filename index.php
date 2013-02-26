@@ -19,7 +19,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://mathsoc.eusa.ed.ac.uk/ball/" />
     <meta property="og:title" content="MathSoc Ball 2013" />
-    <meta property="og:description" content="On 6th March, join us at The Jam House for the 2013 Maths Ball! With a full three course dinner, wine provided and a ceilidh with the Maths Ceilidh band, this is going to be an incredible event that you wno't want to miss out on!" />
+    <meta property="og:description" content="On 6th March, join us at The Jam House for the 2013 Maths Ball! With a full three course dinner, wine provided and a ceilidh with the Maths Ceilidh band, this is going to be an incredible event that you won't want to miss out on!" />
     <meta property="og:image" content="http://mathsoc.eusa.ed.ac.uk/ball/img/facebook.png" />
     
     <?php if( live() ):?>
@@ -41,10 +41,13 @@
 <section class=nav>
     <a href="#faqs">FAQs</a> |
     <a href="#menu">Menu</a> |
-    <a href="#howtobuy">How to Buy</a> |
+    <a href="tables/">Seating plan</a> |
     <a href="#contact">Contact</a>
 </section>
 
+<section class="faqs clearfix" style="padding:1em;text-align:center;">
+    Seating plan now available. <a href="tables/">Click here!</a>
+</section>
 <section class=desc>
     <h2>On 6<sup>th</sup> March, join us at The Jam House for the 2013 Maths Ball!</h2>
     <p>With a full three course dinner, wine provided and a ceilidh with the Maths Ceilidh band, this is going to be an incredible event that you won't want to miss out on!</p>
@@ -66,8 +69,7 @@
         <h2 class=clearfix>Where?</h2>
         
         <a target="_blank" class="map" href="https://maps.google.com/maps?q=jam+house+edinburgh&ll=55.955423,-3.195841&spn=0.006979,0.021136&fb=1&hq=jam+house&hnear=0x4887b800a5982623:0x64f2147b7ce71727,Edinburgh,+City+of+Edinburgh,+UK&cid=0,0,10149982160230575038&t=h&z=16&iwloc=A">
-            <img src="http://maps.googleapis.com/maps/api/staticmap?center=55.955423,-3.195841&zoom=16&size=600x300&maptype=roadmap
-&markers=color:red%7C55.955423,-3.195841&sensor=false" />
+            <img src="img/map.png" />
             <div class="map-inner">The Jam House, 5 Queen Street</div>
         </a>
     </article>
@@ -94,31 +96,6 @@
 
 <section id=menu name=menu class=menu>
     <img src="img/menu.jpg" alt="Menu, including a Prosecco reception. For starters, Leek Soup or Organic Smoked Salmon. Your main course is a choice of Scottish beef, roast chicken or leek and parmesan risotto. For dessert, chocolate brownies and sticky toffee pudding are on offer." />
-</section>
-
-<section id=howtobuy name=howtobuy class="how clearfix">
-    <section class=half>
-        <h2>Online</h2>
-        <p><strong>Tickets on sale on Wednesday.</strong></p>
-        <a href="http://www.eusa.ed.ac.uk/societies/society/mathsoc/" class="button" target="_blank">Buy now through EUSA!</a>
-        <p>You can buy tickets through the EUSA website. Visit the link above when logged into EASE and you'll see some buttons like those below. Add the tickets you want to your basket and you'll be able to buy them right there!</p>
-        <p>If you have trouble with this process, contact us using the means at the bottom of the page.</p>
-        <p><img src="img/eusa.png" title="If you're trying to click this, it's an image." alt="" /></p>
-    </section>
-    <section class=half>
-        <h2>In Person</h2>
-        <p>We will have travelling stalls selling tickets around George Square and Kings Buildings Campuses.</p>
-        <div><strong>
-        <del>1300-1400, Tuesday 5th February, JCMB Maths Hub</del><br>
-        <del>11am-12pm, Wednesday 6th February, Maths Base Appleton Tower</del><br>
-        <del>1300-1400, Thursday 7th February, JCMB Maths Hub</del><br>
-        9am-11am, Friday 8th February, JCMB Maths Hub<br>
-        1300-1400, Monday 11th February, JCMB Maths Hub<br>
-        (Last chance!)
-        </strong></div>
-        <p>You'll also be able to buy tickets at upcoming MathSoc events. Check out our Facebook page for more information.</p>
-        <p><a class=button href="http://facebook.com/EdinMathSoc/events" target="_blank">Find us on Facebook</a></p>
-    </section>
 </section>
 
 <section id=contact name=contact class="contact clearfix">

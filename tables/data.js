@@ -2,7 +2,7 @@ data = [
 
     {
         name : 'Euclid',
-        guests : ['Abby Crookes', 'Cerys Duguid', 'Kristian Hauken', 'Peter Chestnut', 'Dan McKay', 'Loz Hennessy', 'Charlotte-Kendal Parker', 'Jamie Thompson', 'Connie Green', 'Sam Walpole']
+        guests : ['Abby Crookes', 'Cerys Duguid', 'Kristian Hauken', 'Peter Chestnut', 'Dan McKay', 'Loz Hennessy', 'Charlotte Kendal Parker', 'Jamie Thompson', 'Connie Green', 'Sam Walpole']
     },
     {
         name : 'Cauchy',
@@ -10,7 +10,7 @@ data = [
     },
     {
         name : 'Turing',
-        guests : ['Caitlin Stronach', 'Calum Crichton', 'Louise Miller', 'Antonia Green', 'Kirsty Wallace', 'Ruth Penny', 'Rachael Bainbridge', 'Maddie Bailey', 'Katherine Stockan', 'Kaye MacLeod']
+        guests : ['Caitlin Stronach', 'Calum Crichton', 'Louise Millar', 'Antonia Green', 'Kirsty Wallace', 'Ruth Penny', 'Rachael Bainbridge', 'Maddie Bailey', 'Katherine Stockan', 'Kaye MacLeod']
     },
     {
         name : 'Fermat',
